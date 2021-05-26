@@ -2,7 +2,7 @@
 
    图中a表和b表均一列一条数据且数据一致，a类型为varchar，b为date；
 
-![image-20210509155334094](E:\developer\这_MySQL调优笔记\不同类型查询速度比较.png)
+![不同类型查询速度比较](E:\developer\这_MySQL调优笔记\不同类型查询速度比较.png)
 
 2. 避免NULL
    1. 在MYSQL里，null是不=null的，需要用is null
